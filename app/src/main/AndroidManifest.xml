@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tiooooo.nontonyuk" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NontonYuk.NoActionBar" >
+
+        <receiver
+            android:name=".service.MovieReminder"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.base.DetailActivity"
+            android:exported="true">
+            <nav-graph android:value="@navigation/detail_nav" />
+        </activity>
+        <activity
+            android:name=".ui.base.SplashScreenActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.base.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.NontonYuk" >
+        </activity>
+    </application>
+</manifest>
+

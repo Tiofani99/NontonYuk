@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_light">#EC7B6E</color>
+    <color name="primary">#FF5E4C</color>
+    <color name="primary_dark">#C63323</color>
+
+
+    <color name="secondary_light">#FF03DAC5</color>
+    <color name="secondary">#019B9B</color>
+    <color name="secondary_dark">#FF018786</color>
+
+    <color name="black">#303642</color>
+    <color name="white">#FDFFFD</color>
+
+    <color name="base_light">#F5F5F5</color>
+
+    <color name="colorGold">#F7C50E</color>
+    <color name="colorGrey">#C4C4C4</color>
+
+    <color name="bg_detail">#78363131</color>
+    <color name="toolbar_detail">#B3292929</color>
+
+    <color name="colorShimmer">#DFDFDF</color>
+</resources>

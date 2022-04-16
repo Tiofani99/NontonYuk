@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NontonYuk.iml" filepath="$PROJECT_DIR$/.idea/modules/NontonYuk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NontonYuk.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NontonYuk.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/NontonYuk.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/NontonYuk.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorite/NontonYuk.favorite.iml" filepath="$PROJECT_DIR$/.idea/modules/favorite/NontonYuk.favorite.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="movie">Movies</string>
+    <string name="tv_series">Tv Series</string>
+    <string name="my_favorites">My Favorite</string>
+    <string name="image_detail">Image Detail</string>
+    <string name="release_date">Release Date</string>
+    <string name="item_list_movie">Item list Movie</string>
+    <string name="success_add_favorite">%s added to favorites</string>
+    <string name="success_delete_favorite">%s deleted from favorites</string>
+    <string name="no_desc">There is no description in this language</string>
+    <string name="no_cast">there are no casts on this tv</string>
+    <string name="error_message">Oops.. something went wrong</string>
+    <string name="casts">Casts</string>
+    <string name="try_again">Try Again</string>
+</resources>

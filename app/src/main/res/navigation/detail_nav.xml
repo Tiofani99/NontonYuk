@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_nav"
+    app:startDestination="@id/detailFragment">
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.tiooooo.nontonyuk.ui.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment"
+            app:popUpTo="@id/detailFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_detailFragment_to_tvSeriesDetailFragment"
+            app:destination="@id/tvSeriesDetailFragment"
+            app:popUpTo="@id/detailFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.tiooooo.nontonyuk.ui.detail.movie.MovieDetailFragment"
+        android:label="fragment_movie_detail"
+        tools:layout="@layout/fragment_movie_detail">
+        <argument
+            android:name="id"
+            app:argType="string"
+            android:defaultValue="0"
+            app:nullable="true" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://themoviedb.org/movie/{id}" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tvSeriesDetailFragment"
+        android:name="com.tiooooo.nontonyuk.ui.detail.tvSeries.TvSeriesDetailFragment"
+        android:label="fragment_tv_series_detail"
+        tools:layout="@layout/fragment_tv_series_detail">
+        <argument
+            android:name="id"
+            app:argType="string"
+            android:defaultValue="0"
+            app:nullable="true" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://themoviedb.org/tv/{id}" />
+    </fragment>
+</navigation>
